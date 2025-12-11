@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 	"errors"
-	"programmerzamannow/belajar-golang-restful-api/helper"
-	"programmerzamannow/belajar-golang-restful-api/model/domain"
+	"xriot/learn-golang-dependency-injection/helper"
+	"xriot/learn-golang-dependency-injection/model/domain"
 )
 
 type CategoryRepositoryImpl struct {

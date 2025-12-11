@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"programmerzamannow/belajar-golang-restful-api/model/web"
+	"xriot/learn-golang-dependency-injection/model/web"
 )
 
 type CategoryService interface {

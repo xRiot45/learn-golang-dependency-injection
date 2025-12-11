@@ -1,8 +1,8 @@
 package helper
 
 import (
-	"programmerzamannow/belajar-golang-restful-api/model/domain"
-	"programmerzamannow/belajar-golang-restful-api/model/web"
+	"xriot/learn-golang-dependency-injection/model/domain"
+	"xriot/learn-golang-dependency-injection/model/web"
 )
 
 func ToCategoryResponse(category domain.Category) web.CategoryResponse {

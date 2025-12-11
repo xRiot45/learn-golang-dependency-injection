@@ -1,9 +1,10 @@
 package app
 
 import (
+	"xriot/learn-golang-dependency-injection/controller"
+	"xriot/learn-golang-dependency-injection/exception"
+
 	"github.com/julienschmidt/httprouter"
-	"programmerzamannow/belajar-golang-restful-api/controller"
-	"programmerzamannow/belajar-golang-restful-api/exception"
 )
 
 func NewRouter(categoryController controller.CategoryController) *httprouter.Router {

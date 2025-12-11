@@ -1,12 +1,13 @@
 package controller
 
 import (
-	"github.com/julienschmidt/httprouter"
 	"net/http"
-	"programmerzamannow/belajar-golang-restful-api/helper"
-	"programmerzamannow/belajar-golang-restful-api/model/web"
-	"programmerzamannow/belajar-golang-restful-api/service"
 	"strconv"
+	"xriot/learn-golang-dependency-injection/helper"
+	"xriot/learn-golang-dependency-injection/model/web"
+	"xriot/learn-golang-dependency-injection/service"
+
+	"github.com/julienschmidt/httprouter"
 )
 
 type CategoryControllerImpl struct {
